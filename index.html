@@ -141,7 +141,7 @@
       </div>
     </div>
 
-    <div class="py-12 bg-gray-50 dark:bg-gray-900">
+    <section class="py-12 bg-gray-50 dark:bg-gray-900">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center" data-aos="fade-down">
           <h2
@@ -157,7 +157,7 @@
         </div>
 
         <div
-          class="mt-20 grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-24 max-w-4xl mx-auto"
+          class="mt-36 grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-24 max-w-4xl mx-auto"
         >
           <div
             class="team-card-container group rounded-2xl"
@@ -343,34 +343,43 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <div
-      class="bg-gradient-to-tr from-blue-50 to-purple-50 dark:bg-gradient-to-tr dark:from-gray-800 dark:to-gray-900"
+    <section
+      class="relative bg-gray-900 text-white py-16 px-6 text-center overflow-hidden"
     >
       <div
-        class="max-w-2xl mx-auto text-center py-16 px-4 sm:py-20 sm:px-6 lg:px-8"
-      >
+        class="absolute inset-0 bg-[url('https://www.toptal.com/designers/subtlepatterns/patterns/dots.png')] opacity-10"
+      ></div>
+
+      <div
+        class="absolute inset-0 bg-gradient-to-r from-black/80 via-gray-900/70 to-black/80"
+      ></div>
+
+      <div class="relative z-10">
         <h2
-          class="text-3xl font-extrabold text-gray-900 dark:text-white sm:text-4xl"
+          class="text-3xl font-extrabold mb-4 bg-gradient-to-r from-green-500 to-blue-500 bg-clip-text text-transparent"
         >
-          <span class="block">Want to join our team?</span>
-          <span class="block text-gray-600 dark:text-gray-300"
-            >We're hiring!</span
-          >
+          Ready to Connect?
         </h2>
-        <p class="mt-4 text-lg leading-6 text-gray-600 dark:text-gray-400">
-          We're always looking for talented individuals to join our growing
-          team.
+        <p class="text-lg text-gray-300 max-w-2xl mx-auto mb-8">
+          Whether you're looking to join our team or partner with us on your
+          next project, we’d love to hear from you.
         </p>
-        <a
-          href="#"
-          class="mt-8 w-full inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-500 hover:bg-green-600 sm:w-auto"
-        >
-          Join Us
-        </a>
+        <div class="flex justify-center gap-4">
+          <a
+            href="#"
+            class="px-6 py-3 rounded-lg bg-green-500 hover:bg-green-600 transition"
+            >Start a Project</a
+          >
+          <a
+            href="#"
+            class="px-6 py-3 rounded-lg border border-green-500 text-green-500 hover:border-green-600 hover:text-green-600"
+            >Join Us</a
+          >
+        </div>
       </div>
-    </div>
+    </section>
 
     <div class="fixed inset-0 z-[100] overflow-hidden hidden">
       <div onclick="hideMemberDetails()" class="absolute inset-0 overlay"></div>
@@ -753,4 +762,3 @@
     </script>
   </body>
 </html>
-
